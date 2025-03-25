@@ -4,9 +4,11 @@ public class Main {
 //m1.complexion="undefined";
 //        Manshi m2 = new Manshi(m1);
 //        System.out.println(m2.complexion);
-        System.out.println("m1.complexion");
+//        System.out.println("m1.complexion");
 //        m1.dance();
-
+Encapsulation encapsulation = new Encapsulation();
+encapsulation.deposit(-100);
+encapsulation.withdraw(100);
 
     }
 }
